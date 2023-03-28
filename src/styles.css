@@ -1,0 +1,68 @@
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+main {
+  /* main container should show contents as 1 column in mobile view */
+  /* main container should show contents in a row in desktop view */
+}
+
+section {
+  text-align: left;
+  margin: 2rem 1rem;
+  padding-bottom: 2rem;
+  /* section width should have 1/3 width of screen in desktop view */
+}
+
+h2 {
+  padding: 0.5rem;
+  /* h2 should have a background of "lightblue" */
+}
+
+h2.part-two {
+  /* h2 for "part-two" should have a background of "lightyellow" */
+}
+
+fieldset {
+  padding: 0.5rem;
+}
+
+fieldset button {
+  margin-left: 0.5rem;
+}
+
+label {
+  padding-right: 0.25rem;
+}
+
+.title {
+  /* title should have 400px width by 130px height in desktop view, centered on screen  */
+  /* title should have 100% width in mobile view.  */
+  /* title should include 20px padding all around  */
+  /* title should includea solid 2px border with the color "black" */
+  /* title background color should be "honeydew" */
+  /* title content should be centered */
+}
+
+#loading {
+  /* loading should include animation with a duration of 3 seconds, infinitely */
+}
+
+.error {
+  /* error has "darkred" text and "lightpink" background color. */
+  /* error should include some padding as well */
+  /* Bonus: include "! " as first character  */
+}
